@@ -9,7 +9,7 @@ import { EmployeeService } from './services/employee.service';
 export class AppComponent {
   name = 'Angular ';
   value = "6.0";
-  inputToChild = { name: "Ram" };
+  inputToChild = { name: "Ram Child" };
   sampleToChild = { name1: "Change Value" };
 
   emps: any;
