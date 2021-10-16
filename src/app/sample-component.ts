@@ -8,7 +8,7 @@ import { EmployeeService } from './services/employee.service';
 
 export class SampleComponent {
   constructor(public employeeService:EmployeeService){}
-  name = 'Sample Html';
+  nameSample = 'Sample Html';
   @Input() myInput;
 
   changeName() {
