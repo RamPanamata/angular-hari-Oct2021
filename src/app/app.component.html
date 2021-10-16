@@ -1,0 +1,19 @@
+<hello name="{{ name }}"></hello>
+<hello value="{{ value }}"></hello>
+
+<p>
+	Start editing to see some magic happen :)
+</p>
+
+<sample [myInput]="sampleToChild"></sample>
+
+<app-child [childInput]="inputToChild"></app-child>
+
+<h1>Using traditional subscription in component</h1>
+<ul>
+  <li *ngFor="let emp of emps">
+   
+    <div *ngIf="emp.id %2==0"> {{emp.name}}</div>
+    <div *ngIf="emp.id %2!==0"> {{emp.name + "'s Id is "+emp.id}} </div>
+    </li>
+</ul>

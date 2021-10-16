@@ -1,0 +1,15 @@
+<h1>
+	<p>
+		Child works!
+	</p>
+</h1>
+Two way bound:: <input type="text" [(ngModel)]="childInput.name" /><br/> One Way bound:: <input type="text" [ngModel]="childInput.name"
+/>
+<br/>
+<h2>Binding End :: {{childInput.name}}</h2>
+
+<ul>
+	<li *ngFor="let rate of rates">{{rate | cCurrency}}</li>
+</ul>
+
+<button (click)="changeName()">Change Name</button>
