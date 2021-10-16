@@ -12,6 +12,6 @@ export class SampleComponent {
   @Input() myInput;
 
   changeName() {
-    this.myInput.name = this.myInput.name + ' R';
+    this.myInput.name1 = this.myInput.name1 + ' R';
   }
 }

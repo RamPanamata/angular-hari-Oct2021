@@ -10,7 +10,7 @@ export class AppComponent {
   name = 'Angular ';
   value = "6.0";
   inputToChild = { name: "Ram" };
-  sampleToChild = { name: "Change Value" };
+  sampleToChild = { name1: "Change Value" };
 
   emps: any;
 
